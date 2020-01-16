@@ -32,7 +32,7 @@ const observer = new MutationObserver((mutations) => {
 					if (url && title) {
 						ele.insertBefore(title, url);
 						url.childNodes[1].textContent = url.childNodes[1].textContent + '\xA0\xA0\xA0\xA0\xA0\xA0';
-
+						title.style.display='block';	
 						url.style.position = 'relative';
 						let parent = ele.parentNode;
 						let cache = parent.childNodes[1];
@@ -50,9 +50,6 @@ const observer = new MutationObserver((mutations) => {
 }
 );
 observer.observe(document, config);
-
-
-
 
 document.addEventListener('DOMContentLoaded', function () { observer.disconnect() });
 

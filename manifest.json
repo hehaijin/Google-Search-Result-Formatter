@@ -3,14 +3,14 @@
 "name": "google-search-result-formatter", 
 "description": "Put title above URL", 
 "version": "1.0", 
-"author": "haijin",
+"author": "Haijin",
 "browser_action": {
       "default_icon": "formatter.png"
     },
 "background": {
   "scripts": []
 },  
- "content_scripts": [
+"content_scripts": [
     {
       "matches": [
         "https://www.google.com/search?*"
@@ -19,7 +19,7 @@
 	  "all_frames": true,
       "js": ["resultformatter.js"]
     }
-  ],
-"permissions": ["activeTab"]}
+  ]
+}
 
 
