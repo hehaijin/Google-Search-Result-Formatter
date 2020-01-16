@@ -2,7 +2,7 @@
 "manifest_version": 2, 
 "name": "google-search-result-formatter", 
 "description": "Put title above URL", 
-"version": "0.1", 
+"version": "1.0", 
 "author": "haijin",
 "browser_action": {
       "default_icon": "formatter.png"
