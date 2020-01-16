@@ -5,6 +5,8 @@
 
 #### If you do not like the change and want to revert to the old looking, this plugin can help you.
 
+#### Already submitted to Chrome web store, pending approval.
+
 ## Before:
 ![before](https://user-images.githubusercontent.com/16822569/72548203-78e1fb80-384b-11ea-8e36-a4f1762cd20c.PNG)
 
