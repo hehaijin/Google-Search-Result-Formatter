@@ -28,17 +28,21 @@ const observer = new MutationObserver((mutations) => {
 
 				m.addedNodes.forEach(ele => {
 					let url = ele.childNodes[0];
+					let br= ele.childNodes[1];
 					let title = ele.childNodes[2];
 					if (url && title) {
+						ele.removeChild(br);
 						ele.insertBefore(title, url);
-						url.childNodes[1].textContent = url.childNodes[1].textContent + '\xA0\xA0\xA0\xA0\xA0\xA0';
-						title.style.display='block';	
+						//url.childNodes[1].textContent = url.childNodes[1].textContent + '\xA0\xA0\xA0\xA0\xA0\xA0';
+						title.style.display='block';
+						url.style.display='block';						
 						url.style.position = 'relative';
 						let parent = ele.parentNode;
 						let cache = parent.childNodes[1];
 						parent.removeChild(cache);
 						url.appendChild(cache);
 					}
+					
 
 				})
 
