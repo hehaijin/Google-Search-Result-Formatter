@@ -1,13 +1,13 @@
 # Google-Search-Result-Formatter
 
 
-#### Google search just changed their result display a little, putting URL above the title line.
+#### Google search just changed their result display layout a little, putting URL above the title line.
 
 #### If you do not like the change and want to revert to the old looking, this plugin can help you.
 
 #### Already submitted to Chrome web store, pending approval. you can still install it by enabling dev mode in chrome extensions.
 
-## Before:
+## No Plugin:
 ![before](https://user-images.githubusercontent.com/16822569/72548203-78e1fb80-384b-11ea-8e36-a4f1762cd20c.PNG)
 
 
