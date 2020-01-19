@@ -7,7 +7,7 @@
 
 ####  Can be installed from chrome web store https://chrome.google.com/webstore/detail/google-search-result-form/abkidbifhkchpcflnhfnligddnhjjjeg
 
-####  The plugin is still in development, so please post into the issues section if you find any bugs,  or have any questions, feature requests. Appreciate it. 
+####  The plugin is still in development, so please let me know if you find any bugs,  or have any questions, feature requests. Appreciate it. 
 
 #### 
 
