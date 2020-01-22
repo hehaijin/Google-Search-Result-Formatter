@@ -1,4 +1,4 @@
-var config = { subtree: true, childList: true }
+const config = { subtree: true, childList: true }
 
 const observer = new MutationObserver((mutations) => {
 	mutations.forEach(
