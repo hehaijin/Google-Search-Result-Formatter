@@ -12,9 +12,13 @@
 },  
 "content_scripts": [
     {
-      "matches": [
-        "https://www.google.com/search?*"
-      ],
+      "matches":[
+	  "https://www.google.com/search?*", 
+	  "https://www.google.co.uk/search?*",
+	  "https://www.google.co.th/search?*",
+	  "https://www.google.co.in/search?*",
+	  "https://www.google.co.jp/search?*",
+	  ],
 	  "run_at": "document_start",
 	  "all_frames": true,
       "js": ["resultformatter.js"]
