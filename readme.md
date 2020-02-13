@@ -5,11 +5,12 @@
 
 #### If you do not like the change and want to revert to the old looking, this plugin can help you.
 
-####  Can be installed from chrome web store https://chrome.google.com/webstore/detail/google-search-result-form/abkidbifhkchpcflnhfnligddnhjjjeg
+#### Chrome version: https://chrome.google.com/webstore/detail/google-search-result-form/abkidbifhkchpcflnhfnligddnhjjjeg
 
-#### The chrome store version will be a few days behind the Github repo due to review process.
+#### Firefox version: https://addons.mozilla.org/en-US/firefox/addon/google-search-result-formatter
 
-####  The plugin is still in development, so please let me know if you find any bugs,  or have any questions, feature requests. Appreciate it. 
+
+####  Please let me know if you find any bugs,  or have any questions, feature requests. Appreciate it. 
 
 #### 
 
