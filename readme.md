@@ -1,6 +1,5 @@
 # Google-Search-Result-Formatter
 
-## A new version is just uploaded to Chrome web store to accommodate a recent change in Google search layout, pending approval (02/13/2020).
 
 #### Google search just changed their result display layout a little, putting URL above the title line.
 
