@@ -4,7 +4,7 @@
 "description": "Put title above URL", 
 "version": "1.2.1", 
 "author": "Haijin",
-"permissions": ["storage", "declarativeContent"],
+"permissions": ["storage", "declarativeContent", "activeTab"],
 "page_action": {
 	   "default_icon": "formatter.png",
       "default_popup": "popup.html"
