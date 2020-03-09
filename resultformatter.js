@@ -1,3 +1,11 @@
+chrome.storage.sync.get(['titleFirstLine'], function(items) {
+      console.log('Settings retrieved', items);
+	  if(Object.keys(items).length ===0 ){
+		  chrome.storage.sync.set({ titleFirstLine: true }, function () {  
+    });
+	  }
+    });
+
 const config = { subtree: true, childList: true }
 
 const observer = new MutationObserver((mutations) => {

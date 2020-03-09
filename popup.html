@@ -2,9 +2,17 @@
   <html>
     <head>
       <style>
+	    body{
+			margin: 10px;
+			font-size:1em;
+		}
+	  
 	   div{
 		width: 300px;
 		height: 300px;
+		
+	   }
+	   .title{
 		
 	   }
         button {
@@ -12,19 +20,24 @@
           width: 30px;
           outline: none;
         }
+		form{
+			margin:20px;
+		}
       </style>
     </head>
     <body>
 	<div>
-	
-	  <label for="enable"> Enable </label>
-	  <input type="checkbox" id="enable" name="enable" checked value= "true">
-
-
+	  
+	  <h4 class="title"> Google Search Result Re-Formatting</h4>
+	  <form>			
+	  <label for="titleFirstLine"> Title First Line</label>
+	  <input type="checkbox" id="titleFirstLine" name="enable" value= "true">
+	  	
+	</form>	
 	
 
 	</div>	
 		
-     
+     <script src="popup.js"></script>
     </body>
   </html>
