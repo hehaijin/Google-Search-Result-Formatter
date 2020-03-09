@@ -6,8 +6,9 @@
 "author": "Haijin",
 "permissions": ["storage", "declarativeContent", "activeTab"],
 "page_action": {
-	   "default_icon": "formatter.png",
-      "default_popup": "popup.html"
+	  "default_icon": "formatter.png",
+      "default_popup": "popup.html",
+	  "default_title": "Re-Formats Google Search Layout"
     },	
 "background": {
   "scripts": ["background.js"]

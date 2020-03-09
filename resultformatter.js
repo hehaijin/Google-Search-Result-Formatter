@@ -1,5 +1,3 @@
-
-
 const config = { subtree: true, childList: true }
 
 const observer = new MutationObserver((mutations) => {
@@ -28,13 +26,11 @@ const observer = new MutationObserver((mutations) => {
 }
 );
 
-chrome.storage.sync.get(['titleFirstLine'], function(items) {
-      console.log('Settings retrieved', items);
-	  let st = items.titleFirstLine;
-	  if( st === false ) return;
-	  
+chrome.storage.sync.get(['titleFirstLine'], function (items) {
+	let st = items.titleFirstLine;
+	if (st === false) return;
 	observer.observe(document, config);
 
 	document.addEventListener('DOMContentLoaded', function () { observer.disconnect() });
 
-    });
+});

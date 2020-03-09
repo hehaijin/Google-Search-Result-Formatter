@@ -1,43 +1,72 @@
- <!DOCTYPE html>
-  <html>
-    <head>
-      <style>
-	    body{
-			margin: 10px;
-			font-size:1em;
-		}
-	  
-	   div{
-		width: 300px;
-		height: 200px;
-		
-	   }
-	   .title{
-		
-	   }
-        button {
-          height: 30px;
-          width: 30px;
-          outline: none;
-        }
-		form{
-			margin:20px;
-		}
-      </style>
-    </head>
-    <body>
-	<div>
-	  
-	  <h4 class="title"> Google Search Result Re-Formatting</h4>
-	  <form>			
-	  <label ><input type="checkbox" id="titleFirstLine" name="enable" value= "true"> Title First Line</label>
-	  
-	  	
-	</form>	
-	
+<!DOCTYPE html>
+<html>
 
-	</div>	
-		
-     <script src="popup.js"></script>
-    </body>
-  </html>
+<head>
+	<style>
+		body {
+			margin: 10px;
+			font-size: 1em;
+		}
+
+		div {
+			width: 300px;
+			height: 200px;
+
+		}
+
+		button {
+			height: 30px;
+			width: 30px;
+			outline: none;
+		}
+
+		form {}
+
+		ul {
+			list-style-type: none;
+
+		}
+
+		#titleImage {
+			height: 20px;
+			width: 20px;
+			position: relative;
+			top: 3px;
+		}
+
+		li:hover {
+			background-color: lightgrey;
+		}
+
+		li {
+			padding: 4px;
+			transition: background-color 1s;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+
+		<h4 class="title"> <img src="formatter-128.png" id="titleImage"> Re-Formatting Google Search </h4>
+
+		<form>
+			<ul>
+				<li>
+					<label><input type="checkbox" id="titleFirstLine" name="enable" value="true"> Move Title to First
+						Line</label></li>
+				<!--
+	  <li>
+	  <label ><input type="color" id="matchColor" name="matchColor" value= "#c00000"> Highlight match with</label>
+	  </li>
+	  	</ul>		
+		-->
+		</form>
+
+
+	</div>
+
+	<script src="popup.js"></script>
+</body>
+
+</html>
