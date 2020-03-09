@@ -1,10 +1,4 @@
-chrome.storage.sync.get(['titleFirstLine'], function(items) {
-      console.log('Settings retrieved', items);
-	  if(Object.keys(items).length ===0 ){
-		  chrome.storage.sync.set({ titleFirstLine: true }, function () {  
-    });
-	  }
-    });
+
 
 const config = { subtree: true, childList: true }
 
@@ -33,7 +27,14 @@ const observer = new MutationObserver((mutations) => {
 
 }
 );
-observer.observe(document, config);
 
-document.addEventListener('DOMContentLoaded', function () { observer.disconnect() });
+chrome.storage.sync.get(['titleFirstLine'], function(items) {
+      console.log('Settings retrieved', items);
+	  let st = items.titleFirstLine;
+	  if( st === false ) return;
+	  
+	observer.observe(document, config);
 
+	document.addEventListener('DOMContentLoaded', function () { observer.disconnect() });
+
+    });
