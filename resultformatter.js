@@ -8,6 +8,10 @@ const observer = new MutationObserver((mutations) => {
 					if (ele.tagName === 'A') {
 						ele.querySelector('br').remove();
 						let url = ele.querySelector('div.TbwUpd.NJjxre');
+						let title = ele.querySelector('h3');
+						if (title.nextSibling !== url) {
+							ele.insertBefore(title, url);
+						}
 						url.style.display = 'block';
 						url.style.position = 'relative';
 						let cache = ele.parentNode.querySelector('div.B6fmyf');
